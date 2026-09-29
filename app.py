@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 # Load data
-df = pd.read_csv("data/ecommerce_sales (2).csv")
+df = pd.read_csv("ecommerce_sales (2).csv")
 df["Order_Date"] = pd.to_datetime(df["Order_Date"])
 
 # -----------------------------
